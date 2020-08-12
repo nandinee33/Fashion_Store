@@ -7,7 +7,7 @@ body
     background-image: url(img/model.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    animation:infinite slide 10s;
+    animation:infinite slide 12s;
 }
 .a1
 {
@@ -23,6 +23,7 @@ body
     text-decoration: none;
     text-align: center;
     border: black  solid 1px;
+    /* backdrop-filter: blur(5px); */
 }
 a1:hover
 {
