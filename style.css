@@ -23,3 +23,18 @@ body
     text-align: center;
     border: black  solid 1px;
 }
+.a2
+{
+    float: right;
+    margin: 6px;
+    width: 5%;
+    padding: 10px;
+    display: block;
+    color: black;
+    background-color:cornsilk;
+    border-radius: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    float: right;
+    text-align: center;
+}
