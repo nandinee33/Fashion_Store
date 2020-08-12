@@ -52,30 +52,32 @@ a2:hover
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 10px;
-    color: crimson;
+    color:#fff;
     font-size: 65px;
     position: absolute;
     top: 45%;
     left: 30%;
+    text-shadow: 0 0 5px #ff7bac, 0 0 10px #ff7bac, 0 0 20px #ff7bac, 0 0 40px #ff7bac, 0 0 80px #ff7bac, 0 0 90px #ff7bac, 0 0 100px #ff7bac, 0 0 150px #ff7bac;
 }
 .tagline
 {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: crimson;
+    color:#fff;
     font-size: 35px;
     position: absolute;
-    top: 60%;
-    left: 33%;
+    top: 63%;
+    left: 35%;
+    text-shadow: 0 0 5px #ff7bac, 0 0 10px #ff7bac, 0 0 20px #ff7bac, 0 0 40px #ff7bac, 0 0 80px #ff7bac, 0 0 90px #ff7bac, 0 0 100px #ff7bac, 0 0 150px #ff7bac;
 }
 .hrline
 {
     width: 60%;
-    height: 1px;
+    height: 2px;
     position: absolute;
-    top: 60%;
-    left: 22%;
+    top: 62%;
+    left: 23%;
     background-color: white;
 }
 
