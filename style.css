@@ -65,15 +65,18 @@ body
 @keyframes slide 
         {
             20%{
-                background-image: url(img);
+                background-image: url(img/model.jpg);
             }
             40%{
-                background-image: url(img);
+                background-image: url(img/clothe.jpg);
+            }
+            50%{
+                background-image: url(img/makeup.jpg);
             }
             60%{
-                background-image: url(img);
+                background-image: url(img/woollen.jpg);
             }
-            80%{
-                background-image: url(img);
+            70%{
+                background-image: url(img/light.jpg);
             }
         }
