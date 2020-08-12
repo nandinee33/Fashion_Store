@@ -69,6 +69,15 @@ a2:hover
     top: 60%;
     left: 33%;
 }
+.hrline
+{
+    width: 60%;
+    height: 1px;
+    position: absolute;
+    top: 60%;
+    left: 22%;
+    background-color: white;
+}
 
 @keyframes slide 
         {
