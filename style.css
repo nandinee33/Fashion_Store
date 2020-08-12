@@ -13,7 +13,7 @@ body
     float: left;
     margin: 6px;
     width: 5%;
-    padding: 10px;
+    padding: 10px 7px;
     display: block;
     color: black;
     background-color: cornsilk;
@@ -28,7 +28,7 @@ body
     float: right;
     margin: 6px;
     width: 5%;
-    padding: 10px;
+    padding: 10px 7px;
     display: block;
     color: black;
     background-color:cornsilk;
