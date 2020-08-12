@@ -79,4 +79,7 @@ body
             70%{
                 background-image: url(img/light.jpg);
             }
+            /* 80%{
+                background-image: url(img/caption.jpg);
+            } */
         }
