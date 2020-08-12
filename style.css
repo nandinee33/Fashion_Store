@@ -7,6 +7,7 @@ body
     background-image: url(img/model.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    animation:infinite slide 10s;
 }
 .a1
 {
@@ -60,3 +61,19 @@ body
     top: 60%;
     left: 33%;
 }
+
+@keyframes slide 
+        {
+            20%{
+                background-image: url(img);
+            }
+            40%{
+                background-image: url(img);
+            }
+            60%{
+                background-image: url(img);
+            }
+            80%{
+                background-image: url(img);
+            }
+        }
