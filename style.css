@@ -24,6 +24,10 @@ body
     text-align: center;
     border: black  solid 1px;
 }
+a1:hover
+{
+    background-color: lightblue;
+}
 .a2
 {
     float: right;
@@ -38,6 +42,10 @@ body
     text-decoration: none;
     float: right;
     text-align: center;
+}
+a2:hover
+{
+    background-color: lightblue;
 }
 .name
 {
