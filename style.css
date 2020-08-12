@@ -38,3 +38,14 @@ body
     float: right;
     text-align: center;
 }
+.name
+{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: crimson;
+    font-size: 60px;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+}
