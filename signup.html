@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>signup</title>
+    <title>sign up</title>
+
+    <!-- BOOTSTRAP CDN LINK -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- CSS EXTERNAL Linking -->
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <!-- FONT AWASOME LINK -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
     
+    <div class="container_fluid bg">
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12"></div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+
+                <form class="form-container">
+                <h1 class="heading">SIGN UP FORM</h1> 
+                    <div class="form-group">
+                        <label for="exampleInputName2">Username</label>
+                        <input type="text" class="form-control" id="exampleInputName2" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword2">Conferm Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Type Password Again">
+                    </div>
+                    <br>
+                    <!-- <div class="checkbox">
+                      <label>
+                        <input type="checkbox"> Remember me
+                      </label>
+                    </div> -->
+                    <button type="submit" class="btn btn-success btn-block">Submit</button>
+                    <div class="new">
+                        <br>
+                        <p>ALready have an account? <a href="login.html" class="link">Login</a></p>
+                    </div>
+                    <a href="index.html" class="link">Back To Home</a>
+                  </form>
+
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12"></div>
+        </div>
+    </div>
+
 </body>
 </html>
