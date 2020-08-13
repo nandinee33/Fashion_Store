@@ -108,19 +108,21 @@ body
     top: 75%;
     left: 47%;
     width: 8%;
-    display: block;
+    display: inline-block;
     margin: 6px;
-    padding: 10px 7px;
+    padding: 11px 7px;
     color: white;
-    background-color:rgba(0, 0, 0);
-    border-radius: 10px;
-    font-size: 15px;
+    background-color:#031321da;
+    border-radius: 8px;
+    font-size: 18px;
     text-decoration: none;
+    overflow: hidden;
     text-align: center;
     font-weight: bold;
     font-family: sans-serif;
-    letter-spacing: 2px;
+
 }
+
 
 @keyframes slide 
         {
