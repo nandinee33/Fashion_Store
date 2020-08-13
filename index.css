@@ -11,7 +11,7 @@ body
 }
 .navbar
 {
-    /* background-color:gray; */
+    background-color:rgba(128, 128, 128, 0.5);
     backdrop-filter: blur(25px);
     height: 50px;
 }
@@ -41,10 +41,6 @@ body
     font-family:sans-serif;
     letter-spacing: 2px;
 }
-/* a1:hover
-{
-    background-color: blue;
-} */
 .a2
 {
     display: block;
@@ -64,6 +60,10 @@ body
     font-family: sans-serif;
     letter-spacing: 2px;
 }
+/* a1:hover
+{
+    background-color: lightblue;
+} */
 /* a2:hover
 {
     background-color: lightblue;
