@@ -16,6 +16,7 @@ body
 }
 .a1
 {
+    display: block;
     float: left;
     margin: 6px;
     width: 5%;
@@ -36,6 +37,7 @@ a1:hover
 }
 .a2
 {
+    display: block;
     float: right;
     margin: 6px;
     width: 5%;
