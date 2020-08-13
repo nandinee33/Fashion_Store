@@ -9,6 +9,11 @@ body
     background-size: cover;
     animation:infinite slide 12s;
 }
+.navbar
+{
+    background-color: black;
+    height: 50px;
+}
 .a1
 {
     float: left;
