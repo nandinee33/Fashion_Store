@@ -27,3 +27,9 @@
     font-size: 17px;
     font-weight: bold;
 }
+.heading
+{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
