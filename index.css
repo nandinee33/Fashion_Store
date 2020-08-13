@@ -21,7 +21,7 @@ body
     height: 1px;
     position: absolute;
     top: 40px;
-    /* background-color: white; */
+    background-color:rgba(0, 0, 0, .5);
 }
 .a1
 {
@@ -31,13 +31,13 @@ body
     width: 5%;
     padding: 10px 7px;
     display: block;
-    color: black;
-    background-color: cornsilk;
-    border-radius: 20px;
+    color: white;
+    background-color:rgba(0, 0, 0, .5);
+    border-radius: 10px;
     font-size: 15px;
     text-decoration: none;
     text-align: center;
-    border: black  solid 1px;
+    /* border: black  solid 1px; */
 }
 a1:hover
 {
@@ -51,9 +51,9 @@ a1:hover
     width: 5%;
     padding: 10px 7px;
     display: block;
-    color: black;
-    background-color:cornsilk;
-    border-radius: 20px;
+    color: white;
+    background-color:rgba(0, 0, 0, .5);
+    border-radius: 10px;
     font-size: 15px;
     text-decoration: none;
     float: right;
