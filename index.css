@@ -9,6 +9,10 @@ body
     background-size: cover;
     animation:infinite slide 12s;
 }
+.container
+{
+    width: 100%;
+}
 .navbar
 {
     background-color:rgba(211, 211, 211, 0.404);
@@ -45,8 +49,8 @@ body
 {
 
     float: right;
-    margin: 6px;
-    width: 6%;
+    margin: 7px;
+    width: 7%;
     padding: 10px 7px;
     display: block;
     color: white;
