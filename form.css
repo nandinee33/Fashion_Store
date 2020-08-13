@@ -1,14 +1,15 @@
 *
 {
-    color: black;
+    color:white;
 }
 .bg
 {
-    background-image: url(img/light.jpg);
+    background-image: url(img/makeover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 100vh;
+    
 }
 .form-container
 {
