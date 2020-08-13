@@ -37,12 +37,14 @@ body
     font-size: 15px;
     text-decoration: none;
     text-align: center;
-    /* border: black  solid 1px; */
+    font-weight: bold;
+    font-family:sans-serif;
+    letter-spacing: 2px;
 }
-a1:hover
+/* a1:hover
 {
-    background-color: lightblue;
-}
+    background-color: blue;
+} */
 .a2
 {
     display: block;
@@ -58,11 +60,14 @@ a1:hover
     text-decoration: none;
     float: right;
     text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 2px;
 }
-a2:hover
+/* a2:hover
 {
     background-color: lightblue;
-}
+} */
 .name
 {
     text-align: center;
