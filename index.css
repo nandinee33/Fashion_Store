@@ -21,7 +21,7 @@ body
     color:#fff;
     font-size: 65px;
     position: absolute;
-    top: 38%;
+    top: 37%;
     left: 27%;
     text-shadow: 0 0 5px #ff7bac, 0 0 10px #ff7bac, 0 0 20px #ff7bac, 0 0 40px #ff7bac, 0 0 80px #ff7bac, 0 0 90px #ff7bac, 0 0 100px #ff7bac, 0 0 150px #ff7bac;
 }
@@ -34,7 +34,7 @@ body
     font-size: 35px;
     font-style: italic;
     position: absolute;
-    top: 52%;
+    top: 51%;
     left: 33%;
     text-shadow: 0 0 5px #ff7bac, 0 0 10px #ff7bac, 0 0 20px #ff7bac, 0 0 40px #ff7bac, 0 0 80px #ff7bac, 0 0 90px #ff7bac, 0 0 100px #ff7bac, 0 0 150px #ff7bac;
 }
@@ -43,7 +43,7 @@ body
     width: 60%;
     height: 2px;
     position: absolute;
-    top: 50%;
+    top: 49%;
     left: 21%;
     background-color: white;
 }
