@@ -1,3 +1,3 @@
 # Fashion_Store
  
-This is fashion store project using fullstack.
+ ### Welcome to my fashion store which is made using fullstack.
