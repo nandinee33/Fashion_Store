@@ -14,7 +14,7 @@
     width: 100%;
     height: 100px;
     /* border: solid red; */
-    background-color: pink;
+    background-color:gray;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,9 +24,8 @@
 .main
 {
     width: 100%;
-    height: 100vh;
+    height: 130vh;
     /* border: blue solid; */
-    /* background-color: lightcyan; */
     background-image: url(img/back2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,7 +35,7 @@
     width: 100%;
     height: 300px;
     /* border: green solid; */
-    background-color: pink;
+    background-color:gray;
     text-align: center;
 }
 .footer p
@@ -84,10 +83,11 @@ ul li a:hover
 {
     /* border: black solid; */
     width: 300px;
-    height: 210px;
+    height: 270px;
     float: left;
-    margin: 10px;
-    margin: 20px 35px 10px 35px;
+    margin: 8px;
+    padding: 10px;
+    margin: 15px 25px 10px 25px;
 }
 .pic img{
     width: 100%;
