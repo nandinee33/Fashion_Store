@@ -1,26 +1,63 @@
+.container
+{
+    /* border: black solid; */
+    width: 100%;
+}
 *
 {
-    padding: 0px;
     margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-body
+.header
+{
+    width: 100%;
+    height: 100px;
+    /* border: solid red; */
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+.main
 {
     width: 100%;
     height: 100vh;
+    /* border: blue solid; */
+    background-color: lightcyan;
 }
-.header ul
+.footer
+{
+    width: 100%;
+    height: 300px;
+    /* border: green solid; */
+    background-color: pink;
+    text-align: center;
+}
+.footer p
+{
+    font-size: 20px;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+.footer img
+{
+    width: 100px;
+    background-position: center;
+}
+
+ul
 {
     list-style: none;
-    background-color: pink;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
-    font-size: 28px;
+    font-size: 25px;
     display: flex;
     justify-content: space-evenly;
-    position: fixed;
-    top: 0;
     text-transform: uppercase;
-    height: 80px;
+    
 }
 ul li
 {
@@ -39,42 +76,29 @@ ul li a:hover
     background-color: black;
     color: white;
 }
-main{
-    width: 100vw;
-    height: 100vh
-}
-.bg
+
+.pic
 {
-    width: 100%;
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    border: black solid;
+    width: 300px;
+    height: 210px;
+    float: left;
+    margin: 10px;
+    margin: 20px 35px 10px 35px;
 }
-.footer
-{
+.pic img{
     width: 100%;
-    height: 300px;
-    background-color:pink;
+    height: 150px;
+}
+h3
+{
     text-align: center;
-    color:black;
+    font-family: cursive;
+}
+.pic a
+{
+    display: block;
+    text-decoration: none;
+    text-align: center
     
-}
-.footer p
-{
-    font-size: 20px;
-    font-family:sans-serif;
-    font-weight: bold;
-}
-.footer img
-{
-    width: 100px;
-}
-.down
-{
-    font-size: 25px;
-    list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: space-evenly;
-    text-transform: uppercase;
 }
