@@ -10,9 +10,25 @@ ul
     background-color: lightgray;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
-    display: flex;
-    justify-content: space-evenly;
+    font-size: 25px;
+    /* display: flex;
+    justify-content: space-evenly; */
     position: fixed;
     top: 0;
-
+}
+ul li
+{
+    float: left;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    text-align: center;
+}
+ul li a:hover
+{
+    background-color: black;
+    color: white;
 }
