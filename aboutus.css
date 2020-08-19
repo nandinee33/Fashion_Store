@@ -143,3 +143,16 @@
     border: 1px solid #fff;
     border-radius: 50%;
 }
+#services p
+{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+    text-align: justify;
+}
+.services .col-md-3:hover
+{
+    background: #007bff;
+    cursor: pointer;
+    transition: 0.7s;
+}
