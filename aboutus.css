@@ -4,6 +4,7 @@
     padding: 0px;
 }
 
+
 /* -------Navigation Bar------- */
 #nav-bar
 {
@@ -38,3 +39,11 @@
     border: none!important;
 }
 .nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+
