@@ -180,3 +180,17 @@ h1::after
     width: 170px;
     margin: 20px auto 5px;
 }
+.profile-pic
+{
+    margin-top: 25px;
+}
+.profile-pic .img-box
+{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.profile-pic .img-box img 
+{
+    filter : grayscale(1)
+}
