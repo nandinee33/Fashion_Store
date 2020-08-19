@@ -128,3 +128,18 @@
     width: 170px;
     margin:20px auto 5px;
 }
+.services
+{
+    margin-top: 40px;
+}
+/* Css For fontAwsm Icons */
+.icon 
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
