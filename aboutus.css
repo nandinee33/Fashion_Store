@@ -29,3 +29,12 @@
 {
     color: #007bff!important;
 }
+.navbar
+{
+    background: #fff;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
