@@ -206,3 +206,9 @@ h1::after
     margin-top: 15px;
     color: #007bff !important;
 }
+.profile-pic h3
+{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
