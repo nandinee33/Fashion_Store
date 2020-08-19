@@ -192,5 +192,17 @@ h1::after
 }
 .profile-pic .img-box img 
 {
-    filter : grayscale(1)
+    filter : grayscale(1);
+}
+.profile-pic .img-box img:hover
+{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+.profile-pic h2
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #007bff !important;
 }
