@@ -271,6 +271,11 @@ h1::after
     width: 100px;
     margin: 50px;
 }
+#fashion-brands p
+{
+    margin-top: 30px;
+    font-weight: bold;
+}
 
 
 
