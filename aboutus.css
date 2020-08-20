@@ -53,7 +53,7 @@
     width: 100%;
     margin-bottom: 50px;
 }
-/* .carousel-caption
+.carousel-caption
 {
     top: 50%;
     transform: translateY(-50%);
@@ -61,9 +61,10 @@
 }
 .carousel-caption h5
 {
-    color: #fff;
+    color:white;
     font-size: 42px;
-} */
+    font-weight: bolder;
+}
 .carousel-item img 
 {
     width: 100%;
@@ -318,4 +319,30 @@ blockquote
     box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     transition: 0.5s;
+}
+
+
+
+
+/* ------------footer----------- */
+.footer{
+    background-color:rgb(51, 49, 49);
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+    color:white;
+}
+.container3{
+    background-color:rgb(95, 95, 95);
+    color: white;
+}
+h6{
+    font-size: 20px;
+    color: black;
+}
+a{
+    text-align: center;
+}
+.container3 a{
+    color:white;
 }
