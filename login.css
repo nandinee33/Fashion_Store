@@ -17,7 +17,7 @@ body
 .img-left
 {
     width: 45%;
-    background: url(img/form_image1.jpeg) center;
+    background: url(img/form_image3.png) center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -27,7 +27,9 @@ body
 }
 .title
 {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    font-weight: bolder;
+    font-size: 35px;
 }
 .form-input
 {
