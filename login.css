@@ -1,0 +1,91 @@
+body
+{
+    height: 100vh;
+    background: rgb(245, 243, 243) !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card
+{
+    overflow: hidden;
+    border: 0 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+.img-left
+{
+    width: 45%;
+    background: url(img/form_image1.jpeg) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-body
+{
+    padding: 2rem;
+}
+.title
+{
+    margin-bottom: 2rem;
+}
+.form-input
+{
+    position: relative;
+}
+.form-input input
+{
+    width: 100%;
+    height: 45px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    box-shadow: none;
+    border: 1px solid black;
+    border-radius: 50px;
+    outline: none;
+    background: transparent;
+}
+/* css for email and password icons */
+.form-input span
+{
+    position: absolute;
+    top: 10px;
+    padding-left: 15px;
+    color: black;
+}
+/* css for focusing the border of form-input */
+.form-input input:focus, .form-input input:valid
+{
+    border: 2px solid black;
+}
+.form-box button[type="submit"]
+{
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    background: #3c8ce2e8;
+    color: white;
+    font-size: 90%;
+    transition: 0.5s;
+    padding: 12px;
+    font-weight: bold;
+}
+.form-box .btn-facebook
+{
+    background: #4866a8;
+    width: 130px;
+}
+.form-box .btn-twitter
+{
+    background: #33ccff;
+    width: 130px;
+}
+.form-box .btn-google
+{
+    background: #da3f34;
+    width: 130px;
+}
+
+
