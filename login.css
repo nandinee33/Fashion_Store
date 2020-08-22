@@ -7,6 +7,7 @@ body
     align-items: center;
     justify-content: center;
 }
+
 .card
 {
     overflow: hidden;
@@ -14,6 +15,8 @@ body
     border-radius: 20px !important;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
+
+/* -----------image--------------- */
 .img-left
 {
     width: 45%;
@@ -21,16 +24,21 @@ body
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .card-body
 {
     padding: 2rem;
 }
+
+/* ---------Title Heading h4--------- */
 .title
 {
     margin-bottom: 3rem;
     font-weight: bolder;
     font-size: 35px;
 }
+
+/* ---------------form--------------- */
 .form-input
 {
     position: relative;
@@ -48,7 +56,8 @@ body
     outline: none;
     background: transparent;
 }
-/* css for email and password icons */
+
+/*----------- icons in the form--------- */
 .form-input span
 {
     position: absolute;
@@ -56,11 +65,14 @@ body
     padding-left: 15px;
     color: black;
 }
-/* css for focusing the border of form-input */
+
+/* ---------focusing the border of form-input--------- */
 .form-input input:focus, .form-input input:valid
 {
     border: 2px solid black;
 }
+
+/* --------submit button---------- */
 .form-box button[type="submit"]
 {
     margin-top: 10px;
@@ -74,16 +86,22 @@ body
     padding: 12px;
     font-weight: bold;
 }
+
+/* ---------facebook icon------------ */
 .form-box .btn-facebook
 {
     background: #4866a8;
     width: 130px;
 }
+
+/* ---------twitter icon------------ */
 .form-box .btn-twitter
 {
     background: #33ccff;
     width: 130px;
 }
+
+/* ---------google icon------------ */
 .form-box .btn-google
 {
     background: #da3f34;
