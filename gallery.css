@@ -89,6 +89,14 @@
     margin: auto;
     padding: 0 1.5rem;
 }
+.image-gallery
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1.5rem;
+}
+
 
 
 
