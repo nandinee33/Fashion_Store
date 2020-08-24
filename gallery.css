@@ -37,3 +37,50 @@
     font-weight: 600;
     font-size: 16px;
 }
+
+
+/* -----------Banner---------- */
+.banner
+{
+    background-image: url(img/fashionbanner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.row
+{
+    /* margin: ; */
+}
+.mainhead
+{
+   max-width: 500px; 
+   margin-top: 80px;
+   padding: 60px;
+   background: #ffffff8c;
+   margin-bottom: 20px;
+}
+
+
+
+
+/* ------------footer----------- */
+/* .footer{
+    background-color:rgb(51, 49, 49);
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+    color:white;
+}
+.container3{
+    background-color:rgb(95, 95, 95);
+    color: white;
+}
+h6{
+    font-size: 20px;
+    color: black;
+}
+a{
+    text-align: center;
+}
+.container3 a{
+    color:white;
+} */
