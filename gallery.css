@@ -1,3 +1,10 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
 /* -------Navigation Bar------- */
 #nav-bar
 {
@@ -45,18 +52,42 @@
     background-image: url(img/fashionbanner.jpg);
     background-size: cover;
     background-position: center;
-}
-.row
-{
-    /* margin: ; */
+    margin-bottom: 150px;
+    margin-top: 20px;
 }
 .mainhead
 {
    max-width: 500px; 
    margin-top: 80px;
-   padding: 60px;
+   padding: 50px;
    background: #ffffff8c;
-   margin-bottom: 20px;
+   margin-bottom: 15px;
+}
+.banner img
+{
+    width: 200px;
+    height: 300px;
+    margin: -100px;
+    margin-top: 140px;
+}
+
+
+/* --------image-gallery---------- */
+.gallery
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
+    display: flex;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.container
+{
+    width: 100%;
+    max-width: 120rem;
+    margin: auto;
+    padding: 0 1.5rem;
 }
 
 
