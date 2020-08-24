@@ -4,6 +4,12 @@
     padding: 0px;
 }
 
+body
+{
+    background-color:rgb(224, 220, 220) !important;
+
+}
+
 
 /* -------Navigation Bar------- */
 #nav-bar
@@ -78,7 +84,6 @@
 {
     width: 100%;
     height: 100vh;
-    background-color: #eee;
     display: flex;
     box-sizing: border-box;
     margin-bottom: 20px;
@@ -211,6 +216,29 @@
     .img-6
     {
         min-height: 20rem;
+    }
+}
+
+@media screen and (max-width:600px)
+{
+    .image-gallery
+    {
+        grid-template-areas: 
+            'img-1 img-1 img-1 img-1'
+            'img-2 img-2 img-2 img-2'
+            'img-3 img-3 img-3 img-3'
+            'img-4 img-4 img-4 img-4'
+            'img-5 img-5 img-5 img-5'
+            'img-6 img-6 img-6 img-6'
+            'img-7 img-7 img-7 img-7'
+            'img-8 img-8 img-8 img-8';
+    }
+    .image-gallery a,
+    .img-1,
+    .img-6
+    {
+        min-height: 30rem;
+        height: 30rem;
     }
 }
 
