@@ -204,6 +204,14 @@
     {
         height: 20rem;
     }
+    .img-1
+    {
+        min-height: 41.5rem;
+    }
+    .img-6
+    {
+        min-height: 20rem;
+    }
 }
 
 
