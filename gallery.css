@@ -78,6 +78,22 @@ body
 }
 
 
+/* title-style h1
+{
+    padding: 40px 0;
+}
+title-style
+{
+    margin: 0 auto 80px;
+    height: 120px;
+    width: 80%;
+    max-width: 700px;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 4px 5px 0 rgba(0,0,50,0.5);
+} */
+
+
 
 /* --------image-gallery---------- */
 .gallery
@@ -94,6 +110,17 @@ body
     max-width: 120rem;
     margin: auto;
     padding: 0 1.5rem;
+}
+h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+}
+hr
+{
+    
 }
 .image-gallery
 {
