@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form method="post" action="//submit.form" onSubmit="return validateForm(); " style="margin: 100px; padding: 100px;">
+        <div style="max-width: 400px;">
+        </div>
+        <div style="padding-bottom: 18px;font-size : 24px;">Organization Details</div>
+        <div style="padding-bottom: 18px;">Organisation Name:<span style="color: red;"> *</span><br />
+            <input type="text" id="data_12" name="data_12" style="max-width : 450px;" class="form-control" />
+        </div>
+        <div style="padding-bottom: 18px;">Organization Address<span style="color: red;"> *</span><br />
+            <input type="text" id="data_16" name="data_16" style="max-width : 450px;" class="form-control" />
+        </div>
+        <div style="padding-bottom: 18px;">State/Province<span style="color: red;"> *</span><br />
+            <select id="data_31" name="data_31" style="max-width : 450px;" class="form-control">
+                <option>PW</option>
+                <option>RI</option>
+                <option>SC</option>
+                <option>SD</option>
+                <option>TN</option>
+                <option>TX</option>
+                <option>UT</option>
+                <option>VA</option>
+                <option>VI</option>
+                <option>VT</option>
+                <option>WA</option>
+                <option>WI</option>
+                <option>WV</option>
+                <option>WY</option>
+                <option>AB</option>
+                <option>BC</option>
+                <option>MB</option>
+                <option>NB</option>
+                <option>NF</option>
+                <option>NT</option>
+                <option>NS</option>
+                <option>ON</option>
+                <option>PE</option>
+                <option>QC</option>
+                <option>SK</option>
+                <option>YT</option>
+            </select>
+        </div>
+        <div style="padding-bottom: 18px;">Country<span style="color: red;"> *</span><br />
+            <select id="data_32" name="data_32" style="max-width : 450px;" class="form-control">
+                <option>Afghanistan</option>
+                <option>Åland Islands</option>
+                <option>Albania</option>
+                <option>Algeria</option>
+                <option>American Samoa</option>
+                <option>Andorra</option>
+                <option>Angola</option>
+                <option>Anguilla</option>
+                <option>Antigua and Barbuda</option>
+                <option>Argentina</option>
+                <option>Armenia</option>
+                <option>Aruba</option>
+                <option>Australia</option>
+                <option>Austria</option>
+                <option>Azerbaijan</option>
+                <option>Bangladesh</option>
+                <option>Barbados</option>
+                <option>Bahamas</option>
+                <option>Bahrain</option>
+                <option>Belarus</option>
+                <option>Belgium</option>
+                <option>Belize</option>
+                <option>Benin</option>
+                <option>Bermuda</option>
+                <option>Bhutan</option>
+                <option>Bolivia</option>
+                <option>Bosnia and Herzegovina</option>
+                <option>Botswana</option>
+                <option>Brazil</option>
+                <option>British Indian Ocean Territory</option>
+                <option>British Virgin Islands</option>
+                <option>Brunei Darussalam</option>
+                <option>Bulgaria</option>
+                <option>Burkina Faso</option>
+                <option>Burma</option>
+                <option>Burundi</option>
+                <option>Cambodia</option>
+                <option>Cameroon</option>
+                <option>Canada</option>
+                <option>Cape Verde</option>
+                <option>Cayman Islands</option>
+                <option>Central African Republic</option>
+                <option>Chad</option>
+                <option>Chile</option>
+                <option>China</option>
+                <option>Christmas Island</option>
+                <option>Cocos (Keeling) Islands</option>
+                <option>Colombia</option>
+                <option>Comoros</option>
+                <option>Congo-Brazzaville</option>
+                <option>Congo-Kinshasa</option>
+                <option>Cook Islands</option>
+                <option>Costa Rica</option>
+                <option>Croatia</option>
+                <option>Curaçao</option>
+                <option>Cyprus</option>
+                <option>Czech Republic</option>
+                <option>Denmark</option>
+                <option>Djibouti</option>
+                <option>Dominica</option>
+                <option>Dominican Republic</option>
+                <option>East Timor</option>
+                <option>Ecuador</option>
+                <option>El Salvador</option>
+                <option>Egypt</option>
+                <option>Equatorial Guinea</option>
+                <option>Eritrea</option>
+                <option>Estonia</option>
+                <option>Ethiopia</option>
+                <option>Falkland Islands</option>
+                <option>Faroe Islands</option>
+                <option>Federated States of Micronesia</option>
+                <option>Fiji</option>
+                <option>Finland</option>
+                <option>France</option>
+                <option>French Guiana</option>
+                <option>French Polynesia</option>
+                <option>French Southern Lands</option>
+                <option>Gabon</option>
+                <option>Gambia</option>
+                <option>Georgia</option>
+                <option>Germany</option>
+                <option>Ghana</option>
+                <option>Gibraltar</option>
+                <option>Greece</option>
+                <option>Greenland</option>
+                <option>Grenada</option>
+                <option>Guadeloupe</option>
+                <option>Guam</option>
+                <option>Guatemala</option>
+                <option>Guernsey</option>
+                <option>Guinea</option>
+                <option>Guinea-Bissau</option>
+                <option>Guyana</option>
+                <option>Haiti</option>
+                <option>Heard and McDonald Islands</option>
+                <option>Honduras</option>
+                <option>Hong Kong</option>
+                <option>Hungary</option>
+                <option>Iceland</option>
+                <option>India</option>
+                <option>Indonesia</option>
+                <option>Iraq</option>
+                <option>Ireland</option>
+                <option>Isle of Man</option>
+                <option>Israel</option>
+                <option>Italy</option>
+                <option>Jamaica</option>
+                <option>Japan</option>
+                <option>Jersey</option>
+                <option>Jordan</option>
+                <option>Kazakhstan</option>
+                <option>Kenya</option>
+                <option>Kiribati</option>
+                <option>Kuwait</option>
+                <option>Kyrgyzstan</option>
+                <option>Laos</option>
+                <option>Latvia</option>
+                <option>Lebanon</option>
+                <option>Lesotho</option>
+                <option>Liberia</option>
+                <option>Libya</option>
+                <option>Liechtenstein</option>
+                <option>Lithuania</option>
+                <option>Luxembourg</option>
+                <option>Macau</option>
+                <option>Macedonia</option>
+                <option>Madagascar</option>
+                <option>Malawi</option>
+                <option>Malaysia</option>
+                <option>Maldives</option>
+                <option>Mali</option>
+                <option>Malta</option>
+                <option>Marshall Islands</option>
+                <option>Martinique</option>
+                <option>Mauritania</option>
+                <option>Mauritius</option>
+                <option>Mayotte</option>
+                <option>Mexico</option>
+                <option>Moldova</option>
+                <option>Monaco</option>
+                <option>Mongolia</option>
+                <option>Montenegro</option>
+                <option>Montserrat</option>
+                <option>Morocco</option>
+                <option>Mozambique</option>
+                <option>Namibia</option>
+                <option>Nauru</option>
+                <option>Nepal</option>
+                <option>Netherlands</option>
+                <option>New Caledonia</option>
+                <option>New Zealand</option>
+                <option>Nicaragua</option>
+                <option>Niger</option>
+                <option>Nigeria</option>
+                <option>Niue</option>
+                <option>Norfolk Island</option>
+                <option>Northern Mariana Islands</option>
+                <option>Norway</option>
+                <option>Oman</option>
+                <option>Pakistan</option>
+                <option>Palau</option>
+                <option>Panama</option>
+                <option>Papua New Guinea</option>
+                <option>Paraguay</option>
+                <option>Peru</option>
+                <option>Philippines</option>
+                <option>Pitcairn Islands</option>
+                <option>Poland</option>
+                <option>Portugal</option>
+                <option>Puerto Rico</option>
+                <option>Qatar</option>
+                <option>Réunion</option>
+                <option>Romania</option>
+                <option>Russia</option>
+                <option>Rwanda</option>
+                <option>Saint Barthélemy</option>
+                <option>Saint Helena</option>
+                <option>Saint Kitts and Nevis</option>
+                <option>Saint Lucia</option>
+                <option>Saint Martin</option>
+                <option>Saint Pierre and Miquelon</option>
+                <option>Saint Vincent</option>
+                <option>Samoa</option>
+                <option>San Marino</option>
+                <option>São Tomé and Príncipe</option>
+                <option>Saudi Arabia</option>
+                <option>Senegal</option>
+                <option>Serbia</option>
+                <option>Seychelles</option>
+                <option>Sierra Leone</option>
+                <option>Singapore</option>
+                <option>Sint Maarten</option>
+                <option>Slovakia</option>
+                <option>Slovenia</option>
+                <option>Solomon Islands</option>
+                <option>Somalia</option>
+                <option>South Africa</option>
+                <option>South Georgia</option>
+                <option>South Korea</option>
+                <option>Spain</option>
+                <option>Sri Lanka</option>
+                <option>Sudan</option>
+                <option>Suriname</option>
+                <option>Svalbard and Jan Mayen</option>
+                <option>Sweden</option>
+                <option>Swaziland</option>
+                <option>Switzerland</option>
+                <option>Syria</option>
+                <option>Taiwan</option>
+                <option>Tajikistan</option>
+                <option>Tanzania</option>
+                <option>Thailand</option>
+                <option>Togo</option>
+                <option>Tokelau</option>
+                <option>Tonga</option>
+                <option>Trinidad and Tobago</option>
+                <option>Tunisia</option>
+                <option>Turkey</option>
+                <option>Turkmenistan</option>
+                <option>Turks and Caicos Islands</option>
+                <option>Tuvalu</option>
+                <option>Uganda</option>
+                <option>Ukraine</option>
+                <option>United Arab Emirates</option>
+                <option>United Kingdom</option>
+                <option>United States</option>
+                <option>Uruguay</option>
+                <option>Uzbekistan</option>
+                <option>Vanuatu</option>
+                <option>Vatican City</option>
+                <option>Vietnam</option>
+                <option>Venezuela</option>
+                <option>Wallis and Futuna</option>
+                <option>Western Sahara</option>
+                <option>Yemen</option>
+                <option>Zambia</option>
+                <option>Zimbabwe</option>
+            </select>
+        </div>
+        <div style="padding-bottom: 18px;">Organization ID:<span style="color: red;"> *</span><br />
+            <input type="number" id="data_19" name="data_19" style="max-width : 450px;" class="form-control" />
+        </div>
+        <div style="padding-bottom: 18px;">Organization Type<span style="color: red;"> *</span><br />
+            <select id="data_21" name="data_21" style="max-width : 450px;" class="form-control">
+                <option>Option1</option>
+                <option>Option2</option>
+                <option>Option3</option>
+            </select>
+        </div>
+        <div style="padding-bottom: 18px;">Full-time employees<span style="color: red;"> *</span><br />
+            <input type="number" id="data_22" name="data_22" style="max-width : 450px;" class="form-control" />
+        </div>
+        <div style="padding-bottom: 18px;">Part-time employees<span style="color: red;"> *</span><br />
+            <input type="number" id="data_33" name="data_33" style="max-width : 450px;" class="form-control" />
+        </div>
+        <div style="padding-bottom: 18px;">Volunteers<span style="color: red;"> *</span><br />
+            <input type="number" id="data_34" name="data_34" style="max-width : 450px;" class="form-control" />
+        </div>
+        <div style="padding-bottom: 18px;">Established Year<span style="color: red;"> *</span><br />
+            <input type="number" id="data_23" name="data_23" style="max-width : 450px;" class="form-control" />
+        </div>
+        <div style="padding-bottom: 18px;">How much money did your organization raise last year?<span
+                style="color: red;"> *</span><br />
+            <input type="number" id="data_35" name="data_35" style="max-width : 450px;" class="form-control" />
+        </div>
+        <div style="padding-bottom: 18px;">Has your organization ever applied for a federal government grant?<span
+                style="color: red;"> *</span><br />
+            <span><input type="radio" id="data_37_0" name="data_37" value="Option1" /> Option1</span><br />
+            <span><input type="radio" id="data_37_1" name="data_37" value="Option2" /> Option2</span><br />
+            <span><input type="radio" id="data_37_2" name="data_37" value="Option3" /> Option3</span><br />
+        </div>
+        <div style="padding-bottom: 18px;">Has your organization ever applied for 501(c)(3) status?<span
+                style="color: red;"> *</span><br />
+            <span><input type="radio" id="data_38_0" name="data_38" value="Option1" /> Option1</span><br />
+            <span><input type="radio" id="data_38_1" name="data_38" value="Option2" /> Option2</span><br />
+            <span><input type="radio" id="data_38_2" name="data_38" value="Option3" /> Option3</span><br />
+        </div>
+        <div style="padding-bottom: 18px;">Organization Head<span style="color: red;"> *</span><br />
+            <input type="text" id="data_24" name="data_24" style="max-width : 450px;" class="form-control" />
+        </div>
+        <div style="padding-bottom: 18px;">Email<span style="color: red;"> *</span><br />
+            <input type="text" id="data_4" name="data_4" style="max-width : 450px;" class="form-control" />
+        </div>
+        <div style="padding-bottom: 18px;">Mobile phone<span style="color: red;"> *</span><br />
+            <input type="text" id="data_6" name="data_6" style="max-width : 250px;" class="form-control" />
+        </div>
+        <div style="padding-bottom: 18px;">Why do you want to join our campaign?<br />
+            <textarea id="data_8" false name="data_8" style="max-width : 450px;" rows="6"
+                class="form-control"></textarea>
+        </div>
+        <div style="padding-bottom: 18px;">Terms and Conditions<span style="color: red;"> *</span><br />
+            <textarea id="data_25" readonly name="data_25" style="max-width : 450px;" rows="14" class="form-control">Last updated: (add date)
+        
+        Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the http://www.mywebsite.com (change this) website and the My Mobile App (change this) mobile application (the "Service") operated by My Company (change this) ("us", "we", or "our").
+        
+        Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.
+        
+        By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service.
+        
+        Purchases
+        If you wish to purchase any product or service made available through the Service ("Purchase"), you may be asked to supply certain information relevant to your Purchase including, without limitation, your …
+        
+        Subscriptions
+        Some parts of the Service are billed on a subscription basis ("Subscription(s)"). You will be billed in advance on a recurring …
+        
+        Content
+        Our Service allows you to post, link, store, share and otherwise make available certain information, text, graphics, videos, or other material ("Content"). You are responsible for the …
+        
+        Links To Other Web Sites
+        Our Service may contain links to third­party web sites or services that are not owned or controlled by My Company (change this).
+        My Company (change this) has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that My Company (change this) shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.
+        
+        Changes
+        We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 (change this) days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.
+        
+        Contact Us
+        If you have any questions about these Terms, please contact us.</textarea>
+        </div>
+        <div style="padding-bottom: 18px;"><span style="color: red;"> *</span><br />
+            <span><input type="radio" id="data_30_0" name="data_30" value="I agree to the terms and condition" /> I
+                agree to the terms and condition</span><br />
+        </div>
+        <div style="padding-bottom: 18px;"><input name="skip_Submit" value="Submit" type="submit" /></div>
+        <div>
+            <div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email">form to
+                    email</a></div>
+            <script src="https://www.100forms.com/js/FORMKEY:JM443DFADQ63" type="text/javascript"></script>
+        </div>
+    </form>
+
+</body>
+
+</html>

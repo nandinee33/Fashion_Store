@@ -78,22 +78,6 @@ body
 }
 
 
-/* title-style h1
-{
-    padding: 40px 0;
-}
-title-style
-{
-    margin: 0 auto 80px;
-    height: 120px;
-    width: 80%;
-    max-width: 700px;
-    background: #fff;
-    position: relative;
-    box-shadow: 0 4px 5px 0 rgba(0,0,50,0.5);
-} */
-
-
 
 /* --------image-gallery---------- */
 .gallery
@@ -182,43 +166,43 @@ h1
 {
     grid-area: img-1;
     min-height: 51.5rem;
-    background-image: url(img/wall2.jpg);
+    background-image: url(img/image5.jpg);
 }
 .img-2
 {
     grid-area: img-2;
-    background-image: url(img/wall2.jpg);
+    background-image: url(img/image2.jpg);
 }
 .img-3
 {
     grid-area: img-3;
-    background-image: url(img/wall2.jpg);
+    background-image: url(img/image3.jpg);
 }
 .img-4
 {
     grid-area: img-4;
-    background-image: url(img/wall2.jpg);
+    background-image: url(img/image4.jpg);
 }
 .img-5
 {
     grid-area: img-5;
-    background-image: url(img/wall2.jpg);
+    background-image: url(img/image1.jpg);
 }
 .img-6
 {
     grid-area: img-6;
     min-height: 51.5rem;
-    background-image: url(img/wall2.jpg);
+    background-image: url(img/image6.jpg);
 }
 .img-7
 {
     grid-area: img-7;
-    background-image: url(img/wall2.jpg);
+    background-image: url(img/image7.jpg);
 }
 .img-8
 {
     grid-area: img-8;
-    background-image: url(img/wall2.jpg);
+    background-image: url(img/image8.jpg);
 }
 .hrline2
 {
