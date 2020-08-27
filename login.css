@@ -20,7 +20,7 @@ body
 .img-left
 {
     width: 45%;
-    background: url(img/form_image3.png) center;
+    background: url(img/donate.jpeg) center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -88,24 +88,34 @@ body
 }
 
 /* ---------facebook icon------------ */
-.form-box .btn-facebook
+/* .form-box .btn-facebook
 {
     background: #4866a8;
     width: 110px;
-}
+} */
 
 /* ---------twitter icon------------ */
-.form-box .btn-twitter
+/* .form-box .btn-twitter
 {
     background: #33ccff;
     width: 105px;
-}
+} */
 
 /* ---------google icon------------ */
-.form-box .btn-google
+/* .form-box .btn-google
 {
     background: #da3f34;
     width: 105px;
-}
+} */
+
+/* .icon
+{
+    margin-top: 30px;
+    background: black;
+    border-radius: 50%;
+    color: white;
+    height: 15px;
+    
+} */
 
 
