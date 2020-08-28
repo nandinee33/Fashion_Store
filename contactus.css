@@ -32,7 +32,7 @@ body{
 }
 .navbar
 {
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(95,95,95);
 }
 .navbar-toggler
 {
@@ -49,6 +49,10 @@ body{
 
 
 /* -----------------------contact us----------------------- */
+.get_in_touch
+{
+    height: 630px;
+}
 a{
 	text-decoration:none;
 }
@@ -195,4 +199,30 @@ a{
 		text-align: center;
 	}
 	
+}
+
+
+
+/* ------------------footer----------------- */
+.footer{
+    background-color:rgb(51, 49, 49);
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+    color:white;
+}
+.container3{
+    background-color:rgb(95, 95, 95);
+    color: white;
+    padding: 15px;
+}
+h6{
+    font-size: 20px;
+    color: black;
+}
+a{
+    text-align: center;
+}
+.container3 a{
+    color:white;
 }
