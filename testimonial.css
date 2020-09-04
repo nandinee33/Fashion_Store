@@ -1,0 +1,155 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/* -------Navigation Bar------- */
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 30px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: #007bff!important;
+}
+.navbar
+{
+    background:rgb(95, 95, 95);
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color:white!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+h1
+{
+    text-align: center;
+    color: #555 !important;
+    padding-bottom: 10px;
+}
+h1::after
+{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+
+
+/* ----------Testimonial----------- */
+#testimonials
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#testimonials .row
+{
+    margin-top: 30px;
+}
+.col-md-4
+{
+    margin: 40px auto;
+}
+.profile
+{
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+}
+.user
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.profile img
+{
+    top: -60px;
+    position: absolute;
+    left: calc(50% - 60px);
+    border: 10px solid #fff;
+}
+.profile h3
+{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #007bff;
+}
+#testimonials span
+{
+    font-size: 12px;
+    color: #333;
+}
+blockquote
+{
+    font-size: 16px;
+    line-height: 30px;
+}
+.profile:hover
+{
+    box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+
+/* ------------footer----------- */
+.footer{
+    background-color:rgb(51, 49, 49);
+    height: 70px;
+    text-align: center;
+    padding-top: 15px;
+    color:white;
+}
+.container3{
+    background-color:rgb(95, 95, 95);
+    color: white;
+    padding: 20px;
+}
+h6{
+    font-size: 20px;
+    color: black;
+}
+a{
+    text-align: center;
+}
+.container3 a{
+    color:white;
+}
+.icons{
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
