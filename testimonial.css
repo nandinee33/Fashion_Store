@@ -7,46 +7,43 @@
 
 
 /* -------Navigation Bar------- */
-
-.right-menu li{
-	display: inline-block;
-	
-	margin-top: 30px !important;
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
-.right-menu li .fa{
-	font-size: 18px;
-	margin-right: 10px;
-	cursor: pointer;
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 30px;
 }
-.header{
-	background:rgb(97, 96, 96);
-	color: black;
+.navbar-nav li
+{
+    padding: 0 10px;
 }
-.navbar{
-	padding:0 35px ;
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
 }
-.navbar-toggler{
-	border: none !important;
-	outline: none !important;
-	padding: 0 !important;
-	margin-top: 5px;
+#nav-bar ul li a:hover
+{
+    color: #007bff!important;
 }
-.navbar-toggler .fa{
-	font-size: 30px;
-	cursor: pointer;
+.navbar
+{
+    background:rgb(95, 95, 95);
 }
-.nav-link{
-	color: black;
-	font-weight: bold;
-	font-size: 20px;
+.navbar-toggler
+{
+    border: none!important;
 }
-.header p{
-	font-size: 30px;
-	font-weight: bolder;
-	font-family: cursive;
-	margin-left: 5px;
-	margin-right: 30px;
-	margin-top: 25px !important;
+.nav-link
+{
+    color:white!important;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 
@@ -147,7 +144,7 @@ blockquote::after
 
 
 /* ------------footer----------- */
-.footer{
+/* .footer{
     background-color:rgb(51, 49, 49);
     height: 70px;
     text-align: center;
@@ -175,4 +172,36 @@ footer a{
     padding: 10px;
     font-size: 20px;
     font-weight: bolder;
+} */
+.footer{
+    background-color:rgb(51, 49, 49);
+    height: 70px;
+    text-align: center;
+    padding-top: 15px;
+    color:white;
 }
+.container3{
+    background-color:rgb(95, 95, 95);
+    color: white;
+    padding: 20px;
+}
+footer h6{
+    font-size: 25px !important;
+    color: black;
+}
+footer a{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 23px;
+}
+.container3 a{
+    color:white;
+}
+.icons{
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px !important;
+    font-weight: bolder;
+}
+

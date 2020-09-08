@@ -166,17 +166,17 @@ h1
 {
     grid-area: img-1;
     min-height: 51.5rem;
-    background-image: url(img/image5.jpg);
+    background-image: url(img/women4.jpg);
 }
 .img-2
 {
     grid-area: img-2;
-    background-image: url(img/image2.jpg);
+    background-image: url(img/women5.jpg);
 }
 .img-3
 {
     grid-area: img-3;
-    background-image: url(img/image3.jpg);
+    background-image: url(img/mens\ ass.jpg);
 }
 .img-4
 {
@@ -186,23 +186,23 @@ h1
 .img-5
 {
     grid-area: img-5;
-    background-image: url(img/image1.jpg);
+    background-image: url(img/bride2.jpg);
 }
 .img-6
 {
     grid-area: img-6;
     min-height: 51.5rem;
-    background-image: url(img/image6.jpg);
+    background-image: url(img/men1.jpg);
 }
 .img-7
 {
     grid-area: img-7;
-    background-image: url(img/image7.jpg);
+    background-image: url(img/men6.jpg);
 }
 .img-8
 {
     grid-area: img-8;
-    background-image: url(img/image8.jpg);
+    background-image: url(img/women7.jpg);
 }
 .hrline2
 {
@@ -268,7 +268,7 @@ h1
 /* ------------footer----------- */
 .footer{
     background-color:rgb(51, 49, 49);
-    height: 60px;
+    height: 70px;
     text-align: center;
     padding-top: 15px;
     color:white;
@@ -276,15 +276,25 @@ h1
 .container3{
     background-color:rgb(95, 95, 95);
     color: white;
-    padding: 15px;
+    padding: 20px;
 }
 h6{
-    font-size: 20px;
+    font-size: 25px !important;
     color: black;
 }
-a{
-    text-align: center;
+footer a{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 23px !important;
 }
 .container3 a{
     color:white;
 }
+.icons{
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px !important;
+    font-weight: bolder;
+}
+
