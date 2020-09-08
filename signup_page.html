@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOgin-Form</title>
+    <title>signup-Form</title>
 
     <!-- Link of Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -17,11 +17,15 @@
         body
         {
             height: 100vh;
-            background: rgb(245, 243, 243) !important;
+            /* background: rgb(245, 243, 243) !important; */
+            background-image: url(img/wall2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            backdrop-filter: blur(15px);
         }
 
         .card
@@ -29,14 +33,14 @@
             overflow: hidden;
             border: 0 !important;
             border-radius: 20px !important;
-            box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.651);
         }
 
         /* -----------image--------------- */
         .img-left
         {
             width: 45%;
-            background: url(img/donate.jpeg) center;
+            background: url(img/form1.jpg) center;
             background-repeat: no-repeat;
             background-size: 900px;
         }
