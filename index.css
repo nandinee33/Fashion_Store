@@ -1,110 +1,100 @@
-body
-{
-    margin: 0px;
-    padding: 0px;
-    width: 100vw;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white !important;
+}
+.landing{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: rgba(0,0,0,0.7);
+    min-height: 100vh;
+}
+.landing:before{
+    position: absolute;
     height: 100vh;
-    background-image: url(img/model.jpg);
+    width: 100%;
+    background-image: url(img/light.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    content: '';
+    z-index: -1;
     animation:infinite slide 12s;
+    transition: 0.5s;
 }
-.container
-{
-    width: 100%;
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
 }
-.name
-{
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    color:#fff;
-    font-size: 65px;
-    position: absolute;
-    top: 37%;
-    left: 27%;
-    text-shadow: 0 0 5px #ff7bac, 0 0 10px #ff7bac, 0 0 20px #ff7bac, 0 0 40px #ff7bac, 0 0 80px #ff7bac, 0 0 90px #ff7bac, 0 0 100px #ff7bac, 0 0 150px #ff7bac;
+nav ul{
+    display: flex;
+    list-style: none;
 }
-.tagline
-{
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color:#fff;
-    font-size: 35px;
-    font-style: italic;
-    position: absolute;
-    top: 51%;
-    left: 33%;
-    text-shadow: 0 0 5px #ff7bac, 0 0 10px #ff7bac, 0 0 20px #ff7bac, 0 0 40px #ff7bac, 0 0 80px #ff7bac, 0 0 90px #ff7bac, 0 0 100px #ff7bac, 0 0 150px #ff7bac;
+section .line{
+    width: 70%;
+    margin: auto;
+    
 }
-.hrline
-{
-    width: 60%;
-    height: 2px;
-    position: absolute;
-    top: 49%;
-    left: 21%;
-    background-color: white;
+a.shop{
+    padding: 6px 30px;
+    border: 2px solid #013243 !important;
+    border-radius: 20px;
+    background-color: #065b7a !important;
+    transition: 0.5s;
+    margin-top: 20px;
 }
-.mainbutton
-{
-    position: absolute;
-    top: 63%;
-    left: 41%;
-    width: 17%;
-    display: inline-block;
-    margin: 6px;
-    padding: 11px 7px;
-    color: white;
-    background-color:#031321da;
-    border-radius: 8px;
-    font-size: 18px;
-    text-decoration: none;
-    overflow: hidden;
-    text-align: center;
-    font-weight: bold;
-    font-family: sans-serif;
-}
-.a1
-{
-    position: absolute;
-    top: 70%;
-    left: 41.8%;
-    margin-top: 5px;
-    width: 7%;
-    padding: 10px 7px;
-    display: block;
-    color: white;
-    background-color:#031321da;
-    border-radius: 10px;
-    font-size: 15px;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-    font-family: sans-serif;
-    letter-spacing: 2px;
-}
-.a2
-{
-    position: absolute;
-    top: 70%;
-    left: 49%;
-    margin-top: 5px;
-    width: 9%;
-    padding: 10px 7px;
-    display: block;
-    color: white;
-    background-color:#031321da;
-    border-radius: 10px;
-    font-size: 15px;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-    font-family: sans-serif;
-    letter-spacing: 2px;
+a.shop:hover{
+    background-color: white !important;
+    color:#013243 !important;
 }
 
+a,p{
+    font-size: 25px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none !important;
+}
+a.brand{
+    font-size: 36px;
+    font-family: cursive;
+}
+nav ul li a{
+    padding: 6px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    transition: .5s;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    background-color: #fff !important;
+    color:#013243 !important;
+}
+section{
+    text-align: center;
+    width: 60vw;
+    margin: auto;
+}
+section p{
+    margin: 20px 0;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #ff7bac, 0 0 10px #ff7bac, 0 0 20px #ff7bac, 0 0 40px #ff7bac, 0 0 80px #ff7bac, 0 0 90px #ff7bac, 0 0 100px #ff7bac, 0 0 150px #ff7bac;
+}
+section a{
+    margin-bottom: 20px;
+}
+section h1{
+    font-size: 70px;
+    text-shadow: 0 0 5px #ff7bac, 0 0 10px #ff7bac, 0 0 20px #ff7bac, 0 0 40px #ff7bac, 0 0 80px #ff7bac, 0 0 90px #ff7bac, 0 0 100px #ff7bac, 0 0 150px #ff7bac;
+}
+a{
+    display: inline-block;
+    letter-spacing: 1px;
+}
 
 @keyframes slide 
         {
@@ -114,13 +104,40 @@ body
             40%{
                 background-image: url(img/clothe.jpg);
             }
-            50%{
+            60%{
                 background-image: url(img/makeup.jpg);
             }
-            60%{
+            80%{
                 background-image: url(img/woollen.jpg);
             }
-            70%{
-                background-image: url(img/light.jpg);
-            }
-        }
+        } 
+
+@media(max-width:767px){
+
+    nav{
+        flex-direction:column ;
+        
+    }
+    nav a{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    nav .right{
+        justify-content: center;
+    }
+    nav ul {
+        flex-direction:column ;
+    }
+    nav ul li{
+        margin-bottom: 5px;
+    }
+    nav ul li{
+        text-align: center;
+    }
+    section h1{
+        font-size: 30px;
+    }
+    section p{
+        font-size: 18px;
+    }
+}
