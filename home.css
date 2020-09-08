@@ -1,0 +1,214 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.right-menu li{
+	display: inline-block;
+	
+	margin-top: 30px !important;
+}
+.right-menu li .fa{
+	font-size: 18px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+/* .navbar-brand img{
+	width: 160px;
+} */
+/* .navbar-brand{
+	left:50%;
+	top: 25px;
+	transform: translateX(-50%);
+	position: absolute;
+} */
+.header{
+	background:rgb(97, 96, 96);
+	color: black;
+}
+.navbar{
+	padding:0 35px ;
+}
+.navbar-toggler{
+	border: none !important;
+	outline: none !important;
+	padding: 0 !important;
+	margin-top: 5px;
+}
+.navbar-toggler .fa{
+	font-size: 30px;
+	cursor: pointer;
+}
+.nav-link{
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+}
+p{
+	font-size: 30px;
+	font-weight: bolder;
+	font-family: cursive;
+	margin-left: 5px;
+	margin-right: 30px;
+	margin-top: 25px !important;
+}
+
+
+
+
+.banner-img{
+	margin: 80px 80px;
+	width: 70%;
+	
+}
+.banner-img img{
+	width: 100%;
+	margin-bottom: -80px;
+}
+.banner{
+	position: relative;
+}
+.banner-title{
+	position: absolute;
+	left: 55%;
+	top: 40%;
+}
+.banner-title h1{
+	font-size: 45px;
+	background: rgba(0,0,0,0.75);
+	color: #fff;
+	line-height: 70px;
+	padding: 0px 10px 0 10px;
+}
+
+
+
+
+.fashion-trends{
+	padding: 100px 0;
+}
+.fashion-box{
+	margin: 80px 0;
+}
+.title-style h1{
+	padding: 40px 0;
+}
+.title-style{
+	margin: 0 auto 80px;
+	height: 120px;
+	width: 80%;
+	max-width: 700px;
+	background: white;
+	position: relative;
+	box-shadow: 0 4px 5px 0 rgba(0,0,50,0.5);
+}
+.title-style::after{
+	content: '';
+	height: 100px;
+	width: 200px;
+	background-color: #f992a6;
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	z-index: -1;
+}
+.title-style::before{
+	content: '';
+	height: 100px;
+	width: 200px;
+	background-color: #f992a6;
+	position: absolute;
+	bottom: -10px;
+	right: -10px;
+	z-index: -1;
+}
+
+
+
+.trending-img{
+	position: relative;
+	margin-bottom: 15px;
+}
+.trending-img img{
+	width: 100%;
+}
+
+
+.btn-buy{
+	width: 150px;
+	padding: 10px 0;
+	outline: none !important;
+	border: 0;
+	border-radius: 2px;
+	position: absolute;
+	background: white;
+	left: 50%;
+	bottom: 0;
+	transform: translate(-50% , 0);
+	transition: .6s;
+	opacity: 0;
+	z-index: 1;
+}
+.trending-img:hover .btn-buy{
+	transform: translate(-50%,50%);
+	bottom: 50%;
+	opacity: 1;
+}
+
+
+.overlay{
+	height: 0;
+	width: 100%;
+	background: #333;
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	transition: 0.4s;
+}
+h2{
+	text-align: center;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.63);
+	padding: 5px;
+	border-radius: 3px;
+}
+.trending-img:hover .overlay{
+	opacity: 0.5;
+	height: 100%;
+}
+
+
+
+
+/* ------------footer----------- */
+.footer{
+    background-color:rgb(51, 49, 49);
+    height: 70px;
+    text-align: center;
+    padding-top: 15px;
+    color:white;
+}
+.container3{
+    background-color:rgb(95, 95, 95);
+    color: white;
+    padding: 20px;
+}
+h6{
+    font-size: 25px !important;
+    color: black;
+}
+footer a{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 23px;
+}
+.container3 a{
+    color:white;
+}
+.icons{
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px !important;
+    font-weight: bolder;
+}
