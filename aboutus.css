@@ -6,6 +6,56 @@
 
 
 /* -------Navigation Bar------- */
+
+.right-menu li{
+	display: inline-block;
+	
+	margin-top: 30px !important;
+}
+.right-menu li .fa{
+	font-size: 18px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+/* .navbar-brand img{
+	width: 160px;
+} */
+/* .navbar-brand{
+	left:50%;
+	top: 25px;
+	transform: translateX(-50%);
+	position: absolute;
+} */
+.header{
+	background:rgb(97, 96, 96);
+	color: black;
+}
+.navbar{
+	padding:0 35px ;
+}
+.navbar-toggler{
+	border: none !important;
+	outline: none !important;
+	padding: 0 !important;
+	margin-top: 5px;
+}
+.navbar-toggler .fa{
+	font-size: 30px;
+	cursor: pointer;
+}
+.nav-link{
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+}
+p{
+	font-size: 30px;
+	font-weight: bolder;
+	font-family: cursive;
+	margin-left: 5px;
+	margin-right: 30px;
+	margin-top: 25px !important;
+}
 /* #nav-bar
 {
     position: sticky;
