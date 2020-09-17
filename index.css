@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.4);
     min-height: 100vh;
 }
 .landing:before{
@@ -40,15 +40,15 @@ section .line{
 }
 a.shop{
     padding: 6px 30px;
-    border: 2px solid #013243 !important;
+    border: 2px solid #00121b !important;
     border-radius: 20px;
-    background-color: #065b7a !important;
-    transition: 0.5s;
+    background-color: #00121b !important;
     margin-top: 20px;
+    color: lightgrey !important;
 }
 a.shop:hover{
-    background-color: white !important;
-    color:#013243 !important;
+    background-color: rgba(185, 24, 24, 0.945) !important;
+    border: 2px solid black !important;
 }
 
 a,p{
@@ -59,19 +59,19 @@ a{
     text-decoration: none !important;
 }
 a.brand{
-    font-size: 36px;
+    font-size: 30px;
     font-family: cursive;
 }
 nav ul li a{
     padding: 6px 20px;
     border-radius: 5px;
     margin: 5px;
-    transition: .5s;
+    transition: .1s;
     text-transform: uppercase;
 }
 nav ul li a:hover{
-    background-color: #fff !important;
-    color:#013243 !important;
+    background-color:#00121b !important;
+    
 }
 section{
     text-align: center;
@@ -82,14 +82,16 @@ section p{
     margin: 20px 0;
     font-size: 40px;
     text-transform: uppercase;
-    text-shadow: 0 0 5px #ff7bac, 0 0 10px #ff7bac, 0 0 20px #ff7bac, 0 0 40px #ff7bac, 0 0 80px #ff7bac, 0 0 90px #ff7bac, 0 0 100px #ff7bac, 0 0 150px #ff7bac;
+    /* text-shadow: 0 0 5px #ff7bac, 0 0 10px #ff7bac, 0 0 20px #ff7bac, 0 0 40px #ff7bac, 0 0 80px #ff7bac, 0 0 90px #ff7bac, 0 0 100px #ff7bac, 0 0 150px #ff7bac; */
+    text-shadow: 0 0 5px #fa5f06, 0 0 10px #ff7bac, 0 0 20px  #fa5f06, 0 0 40px #ff7bac, 0 0 80px #fff, 0 0 90px #ff7bac, 0 0 100px  #fa5f06, 0 0 150px #ff7bac;
 }
 section a{
     margin-bottom: 20px;
 }
 section h1{
     font-size: 70px;
-    text-shadow: 0 0 5px #ff7bac, 0 0 10px #ff7bac, 0 0 20px #ff7bac, 0 0 40px #ff7bac, 0 0 80px #ff7bac, 0 0 90px #ff7bac, 0 0 100px #ff7bac, 0 0 150px #ff7bac;
+    /* text-shadow: 0 0 5px #ff7bac, 0 0 10px #ff7bac, 0 0 20px #ff7bac, 0 0 40px #ff7bac, 0 0 80px #ff7bac, 0 0 90px #ff7bac, 0 0 100px #ff7bac, 0 0 150px #ff7bac; */
+    text-shadow: 0 0 5px #fa5f06, 0 0 10px #ff7bac, 0 0 20px  #fa5f06, 0 0 40px #ff7bac, 0 0 80px #fff, 0 0 90px #ff7bac, 0 0 100px  #fa5f06, 0 0 150px #ff7bac;
 }
 a{
     display: inline-block;
@@ -99,16 +101,13 @@ a{
 @keyframes slide 
         {
             20%{
-                background-image: url(img/model.jpg);
+                background-image: url(img/clothe.jpg);
             }
             40%{
-                background-image: url(img/clothe.jpg);
+                background-image: url(img/woollen.jpg);
             }
             60%{
                 background-image: url(img/makeup.jpg);
-            }
-            80%{
-                background-image: url(img/woollen.jpg);
             }
         } 
 
