@@ -16,7 +16,7 @@
     position: absolute;
     height: 100vh;
     width: 100%;
-    background-image: url(img/light.jpg);
+    background-image: url(img/landing-page-img/light.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     content: '';
@@ -101,13 +101,13 @@ a{
 @keyframes slide 
         {
             20%{
-                background-image: url(img/clothe.jpg);
+                background-image: url(img/landing-page-img/clothe.jpg);
             }
             40%{
-                background-image: url(img/woollen.jpg);
+                background-image: url(img/landing-page-img/woollen.jpg);
             }
             60%{
-                background-image: url(img/makeup.jpg);
+                background-image: url(img/landing-page-img/makeup.jpg);
             }
         } 
 
