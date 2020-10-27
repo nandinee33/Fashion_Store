@@ -8,8 +8,11 @@
     <!--link-stylesheet--->
     <link rel="stylesheet" type="text/css" href="contactus.css"/>
 
-    <!--using-fontAwesome-->
-    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <!-- Link of Fontawsm CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--------Google font link-------->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
 
     <!-- Link of CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -21,158 +24,190 @@
 </head>
     <body>
 
-        <!-- ---------------------Navbar------------------------- -->
-        <section id="nav-bar">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#"><img src="img/mylogo.jpeg" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                      <a class="nav-link" href="home.html">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="aboutus.html">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">IMAGE GALLERY</a>
-                      </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="testimonial.html">TESTIMONIAL</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT US</a>
-                      </li>
-                  </ul>
-                </div>
-              </nav>
-        </section>
+        <!-- Navigation Bar -->
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html"><img src="img/FC.jpg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="home.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutus.html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">IMAGE GALLERY</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="testimonial.html">TESTIMONIAL</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">LOGIN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.html">SIGNUP</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </section>
 
 
 
     
         <!----------------------contact-form------------------------>
-        <section class="get_in_touch">
-            <div id="contact">
+        <section class="contact">
+            <div class="content">
+                <h2>Get In Touch</h2>
+                <p class="p1">We'd love to hear from you</p>
+                <p class="p2">Whether you have a question about features, pricing, need a demo, or anything else, our team is ready to answer all your questions</p>
+            </div>
+            <div class="container">
+                <div class="containerinfo">
 
-                <!--socail--->
-                <div class="social">
-    
-                <!--icons-->
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    
-                </div>
-    
-                <!--contact-box---->
-                <div class="contact-box">
-    
-                    <!--heading---->
-                    <div class="c-heading">
-                    <h1>Get In Touch</h1>
-                    <p>Call Or Email Us Regarding Question Or Issues</p>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Kanpur U.P.India, <br>117N Vivek Nagar, <br>210505</p>
+                        </div>
                     </div>
-    
-                    <!--inputs--->
-                    <div class="c-inputs">
-                        <form>
-                            <input type="text" placeholder="Full Name"/>	
-                            <input type="email" placeholder="Example@gmail.com"/>
-                            <textarea name="message" placeholder="Write Message"></textarea>
-    
-                            <!--sumbit-btn-->
-                            <button>SEND</button>
-                        </form>
-                    </div>  
+
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>873-295-8109</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>fashioncrooks@gmail.com</p>
+                        </div>
+                    </div>
                 </div>
-    
-                <!--Google map-->
-                <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1701.5252574812218!2d74.31603229143637!3d31.46779655679461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391906abd2d8f2db%3A0x2d4bd93a1eb25b41!2sArfa%20Technologies!5e0!3m2!1sen!2s!4v1596774150754!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>	
+
+                <div class="contactform">
+                    <form action="">
+                        <h2>Send Message</h2>
+                        <div class="inputBox">
+                            <input type="text" name="" required>
+                            <span>Full Name</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" name="" required>
+                            <span>Email</span>
+                        </div>
+                        <div class="inputBox">
+                            <textarea required></textarea>
+                            <span>Type your Message...</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" class="submitbutton" name="" id="" value="Send">
+                        </div>
+                    </form>
                 </div>
             </div>
+
         </section>
 
         
         
 
-        <!----------------------footer---------------- -->
-        <footer class="page-footer " id="footer">
-            <!-- Footer Links -->
-            <div class="container3 text-center text-md-left">
-                <!-- Grid row -->
-                <div class="row ">
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-4 col-xl-3 column_1">
-                    <!-- Content -->
-                    <h6 class="text">ONLINE SHOPPING</h6>
-                    <hr class="deep-purple " style="width: 150px;" >
-                    <p>
-                        <a href="#">Men</a><br></p>
-                    <p> <a href="#">Women</a><br></p>
-                    <p> <a href="#">Kids</a><br></p>
-                    <p> <a href="#">Home & Living</a><br></p>
-                    <p><a href="#">Essentials</a><br></p>
-                    
-                </div>
-                <!-- Grid column -->
-    
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto column_2">
-                    <!-- Links -->
-                    <h6 class="text-uppercase font-weight-bold">Get Started</h6>
-                    <hr class="hr " style="width: 100px;">
-                    <p>
-                    <a href="home.html">Home</a>
-                    </p>
-                    <p>
-                    <a href="aboutus.html">AboutUs</a>
-                    </p>
-                    <p>
-                    <a href="#">Contact</a>
-                    </p>
-                    <p>
-                    <a href="gallery.html">Gallery</a>
-                    </p>
-                    <p>
-                    <a href="testimonial.html">Testimonials</a>
-                    </p>
-                </div>
-                <!-- Grid column -->
-    
-                <!-- Grid column -->
-                <div class="col-md-7 col-lg-4 col-xl-7 mx-auto ">
-                    <h6 class="text-uppercase font-weight-bold">Contact</h6>
-                    <hr class="hr " style="width: 70px;">
-                    <!-- Links -->
-                    <div class="social-links">    
-                        
-                        <a href="#"><i class="fa fa-facebook-square icons" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-instagram icons" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter icons" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-youtube-play icons" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-google-plus icons" aria-hidden="true"></i></a>
-                        
-                    </div>
-                
-                </div>
-                <!-- Grid column -->
-                </div>
-                <!-- Grid row -->
-    
+        <!-- -------------------------Footer start------------------------- -->
+    <footer>
+        <section class="sec-1">
+            <div class="backtotop">
+                <a href="#top">Back to top</a>
             </div>
-            <!-- Footer Links -->
-    
-            <!-- Copyright -->
-            <div class="footer">© 2020 Copyright:
-                <a href="./index.html"> Fashion Crooks</a>
+        </section>
+
+        <section class="sec-2">
+            <section class="about-sec">
+                <h2>About</h2>
+                <p>
+                    We "Fashion Crooks" aim to offer our customers a variety of the latest trendy fashion clothings and accessories. We’ve come a long way, so we know exactly which direction to take when supplying you with high quality yet budget-friendly products. We offer all of this while providing excellent customer service and friendly support. we hope you will enjoy our products as much as we enjoy making them available to you.
+                </p>
+            </section>
+
+            <section class="link-1">
+                <h2>Catagories</h2>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="testimonial.html">Testimonial</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </section>
+
+            <section class="link-2">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="shop_man.html">Men</a></li>
+                    <li><a href="shop_woman.html">women</a></li>
+                    <li><a href="shop_kids.html">Kids</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="signup.html">Signin</a></li>
+                </ul>
+            </section>
+
+            <section class="link-3">
+                <h2>Get in touch</h2>
+                <ul>
+                    <li><i class="fa fa-home"></i>  <span>Kanpur, U.P. India</span></li>
+                    <li><i class="fa fa-envelope"></i>  <span>nandinee@gmail.com</span></li>
+                    <li><i class="fa fa-phone-square"></i>  <span>12131547046</span></li>
+                    <li><i class="fa fa-facebook-official"></i>  <span>nandineegupta</span></li>
+                </ul>
+            </section>
+        </section>
+
+        <hr width="100%" noshade="">
+        <section class="sec-3">
+            <h2>Register for Free</h2>
+            <a href="#">Sign Up!</a>
+            
+        </section>
+        <hr width="100%" noshade="">
+
+        <section class="sec-4">
+            <ul>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google"></i> </a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-github"></i></a></li>
+            </ul>
+        </section>
+
+        <section class="sec-5">
+            <div class="copyright">
+                <p>
+                    Copyright &copy; 2020 All Rights Reserved. Made by &hearts; 
+                    <a href="#">Nandinee Gupta</a>
+                </p>
             </div>
-        </footer>
+        </section>
+    </footer>
+    <!-- ---------------------------Footer end--------------------------- -->
+
 
 
     </body>

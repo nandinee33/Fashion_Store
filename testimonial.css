@@ -60,6 +60,7 @@ h1
     text-align: center;
     color: #022333 !important;
     padding-bottom: 10px;
+    text-shadow: 2px 2px 0 #dad9d9, 4px 4px 0 #bebdbd;
 }
 h1::after
 {
