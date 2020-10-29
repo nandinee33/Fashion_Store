@@ -3,6 +3,11 @@
 	padding: 0px;
 	box-sizing: border-box;
 }
+body{
+    background-image: url(img/contactus-img/contact_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
@@ -51,6 +56,22 @@
 
 
 
+/* ------banner------------ */
+.main_banner{
+    width: 100%;
+}
+.banner_image{
+    width: 100%;
+    
+}
+.banner_image img{
+    width: 100%;
+    
+}
+
+
+
+
 /* ------------contact us----------- */
 .contact{
 	position: relative;
@@ -60,27 +81,30 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background: url(img/contactus-img/backgound.jpg);
+	/* background: url(img/contactus-img/backgound.jpg); */
 }
 .contact .content{
 	max-width: 800px;
 	text-align: center;
 }
 .contact .content h2{
-	font-size: 36px;
+	font-size: 40px;
 	font-weight: 700;
-	color: #021b27;
+    color: #021b27;
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
 	
 }
 .contact .content .p1{
-	font-size: 23px;
+	font-size: 25px;
 	font-weight: 600;
-	color: #021b27;
+    color: #021b27;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 0px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
 }
 .contact .content .p2{
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 500;
-	color: #021b27;
+    color: #021b27;
+    
 }
 .contact .container{
 	width: 100%;
@@ -102,11 +126,11 @@
 .contact .containerinfo .box .icon{
 	min-width: 60px;
 	height: 60px;
-	background: #00121b;
+	background: #00121bea;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border-radius: 50%;
+	border-radius: 50% 50% 50% 60% / 50% 50% 60% 60%;
 	font-size: 22px;
 }
 .contact .containerinfo .box .icon i{
@@ -118,22 +142,31 @@
 	font-size: 16px;
 	color: #00121b;
 	flex-direction: column;
-	font-weight: 300;
+	font-weight: 500;
 }
 .contact .containerinfo .box .text h3{
 	font-weight: 500;
-	color: #ff9800;
+    color: #ff9800;
+    text-shadow: 2px 1px 0px #7A7A7A;
 }
 .contact .contactform{
 	width: 40%;
 	padding: 40px;
-	background: #fff;
-	border-radius: 8px;
+	background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 6px rgba(0, 0, 0, 0.2);
+    
+}
+.contact .contactform:hover{
+    box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.5s;
+
 }
 .contact .contactform h2{
 	font-size: 30px;
-	color: #333;
-	font-weight: 300;
+	color: rgb(2, 12, 34);
+	font-weight: 600;
 }
 .contact .contactform .inputBox{
 	position: relative;
@@ -143,7 +176,7 @@
 .contact .contactform input, .contact .contactform input{
 	width: 100%;
 	padding: 5px 0;
-	font-size: 16px;
+	font-size: 20px;
 	margin: 10px 0;
 	border: none;
 	border-bottom: 2px solid #333;
@@ -154,11 +187,11 @@
 	position: absolute;
 	left: 0;
 	padding: 5px 0;
-	font-size: 16px;
+    font-size: 16px;
 	margin: 10px 0;
 	pointer-events: none;
 	transition: 0.5s;
-	color: #666;
+	color: rgb(78, 78, 78);
 }
 .contact .contactform input:focus ~ span,
 .contact .contactform input:valid ~ span,
@@ -169,13 +202,29 @@
 	transform: translateY(-20px);
 }
 .contact .contactform .submitbutton{
-	width: 100px;
-	background: #00bcd4;
+	width: 120px;
+    background-image: linear-gradient(to right, #4facfe 0%, #10c2f8 100%);
 	color: #fff;
 	border: none;
 	cursor: pointer;
-	border-radius: 10px;
+    border-radius: 10px;
 }
+.contact .contactform .submitbutton:hover{
+    background-image: linear-gradient(to right, #10c2f8 0%, #4facfe  100%);
+}
+
+
+
+
+.google_map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+    margin-top: 50px;
+}
+
+
 
 /* -------breakpoint------- */
 @media (max-width: 991px){
