@@ -214,15 +214,37 @@ body{
 }
 
 
-
-
 .google_map{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 150px;
-    margin-top: 50px;
+    margin-bottom: 100px;
+    min-height: 75vh;
 }
+.mapouter{
+    margin: 0px auto;
+    position:relative;
+    text-align:right;
+    height:430px;
+    width:85%;
+}
+.gmap_canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+    height:430px;
+    width:100%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: -10px 2px 13px -7px #000000, 10px 2px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.gmap_canvas:hover{
+    box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.322);
+}
+
+
 
 
 
