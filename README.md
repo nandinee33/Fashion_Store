@@ -18,4 +18,4 @@
  
  ### Till now , I made this Fashion Store Website using Frontent Technologies ( such as HTML5, CSS3, Bootstrap , and little bit of JavaSript)
  
- ### You can take a view of my website with this live link: 
+ ### You can take a view of my website with this live link:  https://nandinee33.github.io/Fashion_Store/
