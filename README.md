@@ -2,7 +2,9 @@
  
  ## Welcome to my Fashion Store ie. FASHION CROOKS 
  
- ## My Fashion Store Website is just like mini version of other online shopping websites.
+ ### You can take a view of my website with this live link:  https://nandinee33.github.io/Fashion_Store/
+ 
+ ## My Fashion Store Website is just like mini version of other online e-commerce websites.
  ## It includes:
  - Landing Page
  - Login Page
@@ -16,6 +18,6 @@
  - Header and Footer
  ### All pages are fully responsive
  
- ### Till now , I made this Fashion Store Website using Frontent Technologies ( such as HTML5, CSS3, Bootstrap , and little bit of JavaSript)
+ ### I made this Fashion Store Website using Frontent Technologies ( such as HTML5, CSS3, Bootstrap, and JavaSript)
  
- ### You can take a view of my website with this live link:  https://nandinee33.github.io/Fashion_Store/
+ 
